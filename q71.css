@@ -1,0 +1,79 @@
+body{
+    background-color: blanchedalmond;
+    
+}
+
+
+
+#in{
+    width: 50px;
+    height: 50px;
+    background-color: aquamarine;
+}
+
+.cont{
+    display: flex;
+    width: 500px;
+    height: 100vh;
+    padding: 10px;
+    grid-gap: 10px;
+    margin: auto;
+    align-items: center;
+    
+}
+
+.textarea{
+   margin-top: 15px;
+   border-radius: 10px;
+   padding: 10px;
+   
+
+}
+
+.textarea > form > input {
+    text-align: center;
+    border-radius: 100px;
+    border-color: blanchedalmond;
+    box-shadow: 5px 5px 10px black;
+}
+
+.passwordarea > form > input {
+    text-align: center;
+    border-radius: 100px;
+    border-color: blanchedalmond;
+    box-shadow: 5px 5px 10px black;
+}
+
+
+.passwordarea{
+    padding: 10px;
+    margin-top: 15px;
+    
+}
+
+.log-box{
+    display: flex;
+    margin-left: 10px;
+    
+}
+
+.log-box > form{
+    display: flex;
+    grid-gap: 20px;
+    margin-top:20px;
+    margin-left: 10px;
+    
+}
+
+.log-box > form > button{
+    border-radius: 100px;
+    width: 100px;
+    height: 25px;
+    border-color: blanchedalmond;
+    box-shadow: 5px 5px 10px black;
+}
+
+
+
+
+

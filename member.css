@@ -1,0 +1,79 @@
+
+body{
+    background-color: bisque;
+}
+
+
+.textarea > input{
+    width :250px;
+}
+
+
+.container{
+
+    height: 100vh;
+    margin :auto;
+}
+ 
+.textarea{
+    display: flex;
+    height: 160px;
+    flex-direction: column;
+    row-gap: 10px;
+} 
+
+.name{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+.day{
+    display: flex;
+    grid-gap: 10px;
+    
+}
+
+.s{
+    display: flex;
+
+
+}
+
+
+
+ .s > form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+} 
+
+.tel{
+    text-align: center;
+}
+
+.tel > input{
+ 
+    margin-top: 10px;
+    width: 150px;
+
+  
+ 
+}
+
+
+.btn{
+    margin-top: 15px;
+    display: flex;
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.radiob{
+    
+    display: flex;
+    justify-content: center;
+    grid-gap: 20px;
+}
